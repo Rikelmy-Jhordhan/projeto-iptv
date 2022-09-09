@@ -23,7 +23,18 @@ header {
     color: white;
     padding: 4px 0px 13px 10px;
     font-size: 1.2em;
+
 }
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: red;
+}
+
 
 header p::before {
     content: '\1F4DE\00A0';
