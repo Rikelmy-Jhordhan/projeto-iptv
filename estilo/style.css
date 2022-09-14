@@ -107,6 +107,7 @@ article.dispositivo {
 
 article.dispositivo > h3 {
     margin: 20px 0px 10px 0px;
+    text-align: center;
 }
 
 article.dispositivo > p {
