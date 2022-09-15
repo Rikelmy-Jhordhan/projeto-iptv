@@ -8,18 +8,18 @@
 }
 
 :root {
-    --cor0:#001CA6;
-    --cor1:#000F59;
-    --cor2:#00105E;
-    --cor3:#1B1D27;
-    --cor4:#00020D;
+    --cor0:#023535;
+    --cor1:#015958;
+    --cor2:#008F8C;
+    --cor3:#0CABA8;
+    --cor4:#0FC2C0;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'Figtree', sans-serif;
 }
 
 header {
-    background-color: var(--cor1);
+    background-image:linear-gradient(to top,black, var(--cor0),var(--cor1), var(--cor2), var(--cor3));
     color: white;
     padding: 4px 0px 13px 10px;
     font-size: 1.2em;
@@ -55,11 +55,6 @@ section {
     color: white;
 }
 
-div.valor {
-    font-size: 2.4em;
-    padding: 0px 0px 40px 0px;
-    color: red;
-}
 
 section > #inicio p {
     padding: 5px 0px 17px 0px;
@@ -72,21 +67,29 @@ section ul {
 }
 
 section a {
-    background-color:var(--cor4);
-    color: red;
+    color: #000000;
     padding: 9px 12px;
-    
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 1.6em;
     text-decoration: none;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 2px 2px 4px #00020d47;
+    box-shadow: 2px 2px 4px #00020d2b;
 }
 
 section a:hover {
     color: var(--cor0);
 }
+
+
+
+
+div#valor {
+    font-size: 2.7em;
+    padding: 0px 0px 40px 0px;
+    color: var(--cor4);
+}
+
 
 article#inicio {
     text-align: center;
@@ -123,7 +126,7 @@ article.dispositivo > p {
 
 #corplanos > h2 {
     text-align: center;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to right,black, var(--cor0),var(--cor1), var(--cor2));
     box-shadow:inset -4px -1px 8px 6px #000000ba;;
     color: white;
     font-size: 1.9em;
@@ -180,9 +183,9 @@ article > #inicioplano {
 }
 
 article > #teste {
-    background-color: var(--cor0);
-    color: white;
-    padding: 9px 10px;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor4));
+    color: black;
+    padding: 2px 4px;
     margin: 0px 0px;
     text-decoration: none;
     border-radius: 5px;
@@ -191,15 +194,14 @@ article > #teste {
 }
 
 article > #teste:hover {
-    color: red;
+    color: var(--cor0);
 }
 
 strong {
-    font-size: 1.4em;
-    color: rgb(255, 0, 0);
-    background-color: black;
+    font-size: 1.8em;
+    color: black;
     font-weight: bolder;
     padding: 5px 8px;
     border-radius: 6px;
-    box-shadow: 2px 2px 4px #00020d47;
+    box-shadow: 2px 2px 4px #00020d17;
 }
